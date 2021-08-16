@@ -6,26 +6,7 @@ import "./App.css";
 
 function App() {
   const [showAddTask, setShowAddTask] = useState(false);
-  const [tasks, setTasks] = useState([
-    {
-      id: 1,
-      text: "Hospital appointment",
-      day: "Aug 12th at 2pm",
-      reminder: true,
-    },
-    {
-      id: 2,
-      text: "Meeting at school",
-      day: "Aug 11th at 10am",
-      reminder: true,
-    },
-    {
-      id: 3,
-      text: "Food Shoping",
-      day: "Aug 15th at 2pm",
-      reminder: false,
-    },
-  ]);
+  const [tasks, setTasks] = useState([]);
 
   //Delete task
   const deleteTask = (id) => {
