@@ -8,10 +8,16 @@ const Task = ({ task, deleteTask, taskReminder }) => {
       onDoubleClick={() => taskReminder(task.id)}
     >
       <h3>
-        {task.text}{" "}
+        {task.text}
         <FaTimes
           style={{ color: "red", cursor: "pointer" }}
-          onClick={() => deleteTask(task.id)}
+          onClick={() => 
+            {
+            deleteTask(task.id);
+          console.log(task.id)
+            }
+          
+          }
         />
       </h3>
       <p>{task.day}</p>
