@@ -7,12 +7,6 @@
       "reminder": true
     },
     {
-      "text": "Take test",
-      "day": "friday",
-      "reminder": true,
-      "id": 2
-    },
-    {
       "text": "Shopping ",
       "day": "Sept 2nd at 3pm",
       "reminder": false,
