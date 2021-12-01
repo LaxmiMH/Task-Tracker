@@ -5,12 +5,6 @@
       "text": "Hospital appointment",
       "day": "Aug 12th at 2pm",
       "reminder": true
-    },
-    {
-      "text": "Shopping ",
-      "day": "Sept 2nd at 3pm",
-      "reminder": false,
-      "id": 3
     }
   ]
 }
